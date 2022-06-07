@@ -33,7 +33,7 @@
 #prerequisite
 $time = (Get-Date).ToString("yyyy-MM-dd")
 $BPAScan = 0
-$sourcepath = "C:\ATEA\BPA4000\$time" # Source Path, duh....
+$sourcepath = "C:\BPA4000\$time" # Source Path, duh....
 $SummaryPathCSV = "$sourcepath\$Time-BPA_summary_Results.csv" # Sumamry Results of getting the BPA
 $StatusSummaryTextPath = "$sourcepath\$Time-BPA_summary_Results.txt" # Summary Results of running the script
 if (test-path -path $sourcepath) {} else { New-Item -ItemType "directory" -Path "$sourcepath" } # Test if the source path exists, if not make it, files will go there
@@ -60,7 +60,7 @@ While ($UserInputValid -eq 0) {
     Write-Output "4. Scan all roles installed and get results from a specific Server through CSV"
     Write-Output ""
     Write-Output "IMPORTANT: The Server(s) needs to allow PowerShell remotely from the User that is running this script"
-    Write-Output "Results are stored in C:\ATEA\BPA4000"
+    Write-Output "Results are stored in C:\BPA4000"
     Write-Output ""
     $UserChoice = Read-Host "What would you like to do?"
     Switch ($UserChoice) {
