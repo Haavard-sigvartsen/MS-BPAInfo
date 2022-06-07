@@ -4,5 +4,5 @@ This program was an idea from a colleague at work during 2021/2022, which would 
 
 This program Scan and Collects or just collects Best Practice analyzes from Microsoft Best Practice Analyzer (or just BPA for short) thats built-in Windows Servers 2016 and newer
 With this they can scan and collect BPA inforation from their server with the help of a CSV list or servername, and have the results centrally collected from the place you ran it from. 
-It supports IP or Hostname, allows you to collect results or scan and collect results, it will only scan based on what features are installed (i wouldn't say its 100% yet, i haven't tested this on a large scale, but it should give usefull inforation 90% of the times)
+It supports IP or Hostname, allows you to collect results or scan and collect results, it will only scan based on what features are installed (i wouldn't say its 100% accurate yet, i haven't tested this on a large scale, but it should give usefull information 90% of the times)
 
